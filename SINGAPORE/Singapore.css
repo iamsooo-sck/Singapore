@@ -53,3 +53,25 @@ img {
     border-radius: 4px;
     margin-bottom: 10px;
 }
+
+#scroll-to-top {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 20px;
+    z-index: 99; 
+    border: none;
+    outline: none;
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    opacity: 0.7; 
+    transition: opacity 0.3s ease-in-out; 
+}
+
+#scroll-to-top:hover {
+    opacity: 1; 
+}
