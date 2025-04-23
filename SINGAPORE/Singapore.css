@@ -48,10 +48,12 @@ h2 {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
+    width: 300px; /* Sets all images to a fixed width */
+    height: 200px; /* Ensures a consistent height */
+    border-radius: 8px; /* Keeps rounded corners */
     margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds depth to images */
+    object-fit: cover; /* Ensures images are cropped proportionally */
 }
 
 #scroll-to-top {
